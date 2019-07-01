@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/l_2.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row my_div">
+        <div class="col-sm-12 py-3">
+            <img class="d-block my_m_center " src="img1/logo1.png" alt=""/>
+        </div>
+        <div class="col-sm-12 my_n_bg ">
+            <ul class="breadcrumb m-0">
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;" >浪琴主页</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">浪琴世界</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">大使</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">彭于晏</a>
+                </li>
+            </ul>
+            <hr class="my_h"/>
+        </div>
+        <div class="col-sm-12 my_n_bg p-4 ">
+            <h1 class="text-center text-white font-weight-light">彭于晏</h1>
+        </div>
+        <div id="break" class="col-sm-12 my_n_bg pr-0">
+            <div class=" float-left p-2 pr-0 pb-3">
+                <img class="d-inline-block pb-1 my_cur" src="img1/l_箭头.png" alt=""/>
+                <span class="my_f_c my_cur ">Zhao Liying</span>
+            </div>
+            <div class="float-right p-2 pl-0 pb-3">
+                <span class="my_f_c my_cur">林志玲</span>
+                <img class="d-inline-block pb-1 my_cur" src="img1/r_箭头.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- 内容-->
+        <div class="col-sm-12 col-md-6 p-0 pt-2">
+            <img class="w-100" src="img1/peng.jpg" alt=""/>
+        </div>
+        <div class="col-sm-12 col-md-6 p-0 pt-2 my_div_p">
+            <div class="pt-5 px-5 my_m_p">
+                <p class="my_title_f">彭于晏自2014年起担任浪琴表优雅形象大使。他的天生气质、俊朗外表与超凡魅力充分展示了浪琴表始终如一的优雅价值观
+                </p>
+                <p class="my_s_f m-0">彭于晏被誉为亚洲新一代影视动作英雄，他曾凭借在《激战》（2013）和《翻滚吧！阿信》（2011）等热门影片中的出色表现，获得香港电影金像奖和台湾电影金马奖的肯定。 彭于晏刚刚结束一部以武术宗师黄飞鸿为主角的电影——《黄飞鸿之英雄有梦》的拍摄。这是一部意在重振功夫片类型的电影，彭于晏在其中饰演主角黄飞鸿。为这部备受期待的电影担纲制片人的是在国际上屡获成功的香港知名制片人江志强。与此同时，彭于晏还在韩国等非华语地区受到制片人与导演的青睐。
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 p-0 pt-2">
+            <img class="w-100" src="img1/9.jpg" alt=""/>
+        </div>
+        <div class="col-sm-12 col-md-6 my_th_bg mt-2">
+            <div class="row">
+                <div class="col-sm-12 mt-2">
+                    <img class="w-75 d-block my_m_center" src="img1/peng11.jpg" alt=""/>
+                </div>
+                <div class="col-sm-12 ">
+                    <div class=" bg-white w-75 my_m_center">
+                        <h2 class="text-center py-5">开创者系列</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mt-2">
+            <div class="pt-5 px-5 my_m_p">
+                <p class="my_s_f my_m_padding">彭于晏的作品遍布大小影视银屏，他凭借卓越天赋与高度敬业的精神，将诸多性格各异的角色演绎得极具说服力。他对待角色全情投入，甚至会花上数月时间的苦练，只为力求形神兼具。他的进取精神和积极态度被全亚洲的粉丝视为标杆。 彭于晏生于台北，长于加拿大。他熟悉中西文化，多才多艺，还曾推出音乐作品。他也因此成为闪耀国际舞台的活力艺人。</p>
+            </div>
+        </div>
+        <!-- -->
+    </div>
+</div>
+<footer >
+    <iframe src="footer.html"scrolling="no"class="my_row1" frameborder="0"></iframe>
+</footer>
+<script>
+    (function(){
+        var homepage=document.getElementsByClassName("breadcrumb")[0];
+       // console.log(homepage);
+        var li=homepage.firstElementChild.firstElementChild;
+        //console.log(li);//浪琴主页绑定事件
+        li.onclick=function(){
+            open("longine.html","_blank");
+        }
+        var p_a=document.getElementById("break");
+        //console.log(p_a);
+        var p_a1=p_a.firstElementChild;
+        var p_a2=p_a.lastElementChild;
+        p_a1.onclick=function(){
+            open("l_2.html","_self");
+        }
+        p_a2.onclick=function(){
+            open("l_2_2.html","_self");
+        }
+    })()
+</script>
+</body>
+</html>

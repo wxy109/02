@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/l_2.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row my_div">
+        <div class="col-sm-12 py-3">
+            <img class="d-block my_m_center " src="img1/logo1.png" alt=""/>
+        </div>
+        <div class="col-sm-12 my_n_bg ">
+            <ul class="breadcrumb m-0">
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;" >浪琴主页</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">浪琴世界</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">大使</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">Zhao Liying</a>
+                </li>
+            </ul>
+            <hr class="my_h"/>
+        </div>
+        <div class="col-sm-12 my_n_bg p-4 ">
+            <h1 class="text-center text-white font-weight-light">ZHAO LIYING</h1>
+        </div>
+        <div class="col-sm-12 my_n_bg pr-0" id="break">
+            <div class=" float-left p-2 pr-0 pb-3">
+            <img class="d-inline-block pb-1 my_cur" src="img1/l_箭头.png" alt=""/>
+            <span class="my_f_c my_cur ">彭于晏</span>
+            </div>
+            <div class="float-right p-2 pl-0 pb-3">
+                <span class="my_f_c my_cur">林志玲</span>
+                <img class="d-inline-block pb-1 my_cur" src="img1/r_箭头.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- 内容-->
+        <div class="col-sm-12 col-md-6 p-0 pt-2">
+            <img class="w-100" src="img1/zhao.jpg" alt=""/>
+        </div>
+        <div class="col-sm-12 col-md-6 p-0 pt-2 my_div_p">
+            <div class="pt-5 px-5 my_m_p">
+            <p class="my_title_f">新一代实力影视巨星赵丽颖加入浪琴表优雅形象大使大家庭，庆祝浪琴表185周年纪念
+            </p>
+            <p class="my_s_f m-0">新生代实力影星赵丽颖凭借清丽灵动的形象以及打动人心的专业演技而受到观众青睐，并取得一系列成功。2006年，赵丽颖因获得雅虎搜星比赛冯小刚组冠军而进入演艺圈，并呈献一系列脍炙人口的影视剧作品，包括《新玉观音》（2011）、《陆贞传奇》（2013）、《杉杉来了》（2014）、《花千骨》（2015）以及《楚乔传》（2017）等。被誉为“收视女王”的赵丽颖也在电影大银幕上为观众呈献一系列电影佳作。与此同时，赵丽颖的时尚造型伴随越来越多的杂志封面而崭露头角。浪琴表欣赏赵丽颖内心的优雅态度，因此邀请赵丽颖成为浪琴表优雅形象大使新成员。
+            </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 my_th_bg mt-2">
+                <div class="row">
+                    <div class="col-sm-12 mt-2">
+                        <img class="w-75 d-block my_m_center" src="img1/li_b1.jpg" alt=""/>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <div class=" bg-white w-75 my_m_center">
+                            <h2 class="text-center py-5">浪琴表名匠系列</h2>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mt-2">
+            <div class="pt-5 px-5 my_m_p">
+                <p class="my_s_f my_m_padding">赵丽颖凭借卓越的演技获得中国电视金鹰奖观众喜爱的女演员奖、北京大学生电影节最受大学生欢迎女演员奖、第六届澳门国际电视节金莲花最佳女主角奖、 中国电视剧品质盛典年度实力演技剧星、   第22届上海国际电视节白玉兰奖最佳女主角奖提名等奖项，及微博Queen、首个网播量破千亿的演员，至今仍是周播电视剧收视率及网播量最高的拥有者。2017年，赵丽颖还与浪琴表优雅形象大使彭于晏携手呈现电影《乘风破浪》，与浪琴表优雅形象大使郭富城合作演绎电影《密战》，并在大年初一全球即将上映的《西游记女儿国》独挑大梁。</p>
+            </div>
+        </div>
+        <!-- -->
+    </div>
+
+</div>
+<footer >
+    <iframe src="footer.html"scrolling="no"class="my_row1" frameborder="0"></iframe>
+</footer>
+<script>
+    (function(){
+        var homepage=document.getElementsByClassName("breadcrumb")[0];
+        //console.log(homepage);
+        var li=homepage.firstElementChild.firstElementChild;
+        //console.log(li);//浪琴主页绑定事件
+        li.onclick=function(){
+            open("longine.html","_blank");
+        }
+        var p_a=document.getElementById("break");
+        //console.log(p_a);
+        var p_a1=p_a.firstElementChild;
+        var p_a2=p_a.lastElementChild;
+        p_a1.onclick=function(){
+            open("l_2_1.html","_self");
+        }
+        p_a2.onclick=function(){
+            open("l_2_2.html","_self");
+        }
+    })()
+</script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+.d1{width:1125px;}
+.bg{background-color: #fff;}
+.fc{color:#fff;}
+
+
+.nav>.nav-item>a,.float-right>a{color:#002744;}
+.modal1{position:fixed;opacity: 0.7; z-index: 1000;}
+/*重新*/
+body{min-width: 600px !important;
+    background-color: #002744;/*6f9ab9*/
+}
+.qa{text-decoration: none !important;}
+.my_row{width:100%;height:4rem;opacity: 0.7;}
+.my_row1{width:100%;height:58rem;}
+.my_font{
+    color:#bbb;
+    font-size: 0.8rem;
+}
+.my_font_bg{
+    color:#002744;
+}
+.my_two_postion{
+    transition: transform 1s;
+}
+.my_two_postion:hover{
+    transform: scale(1.02);
+}
+.my_position{
+    position: relative;
+}
+.my_div{
+    overflow:hidden;
+}
+.my_fangda{
+    transition:all 1.3s;
+}
+.my_fangda:hover{
+    transform:scale(1.1);
+}
+.arrow_l{
+    width:40px;height:2px;
+    border:1px solid #fff;
+    background-color:#fff;
+    position:relative;
+    top:-12px;
+    right:-160px;
+}
+.arrow{
+    width:15px;height:15px;
+    border:2px solid #fff;
+    border-left:none;
+    border-bottom:none;
+    transform:rotate(45deg);
+    position:absolute;
+    top:-8px;
+    right:0px;
+}
+.my_newnav{
+    position: fixed;
+    z-index: 100;
+}
+.my_header{
+    width: 100%;
+}
+/*字体位置手写媒体查询*/
+@media screen and (min-width: 1200px) {
+    .my_threefont_postion{
+        position:absolute;
+        top:-217px;
+        right:124px;
+    }
+    .my_threeimg_postion{
+        position:absolute;
+        top:-205px;
+        left:100px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .my_threefont_postion{
+        position:absolute;
+        top:-217px;
+        right:83px;
+    }
+    .my_threeimg_postion{
+        position:absolute;
+        top:-203px;
+        left:87px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_threefont_postion{
+        position:absolute;
+        top:-154px;
+        right:65px;
+    }
+    .my_threefont_size{
+        font-size: 1.1rem;
+    }
+    .my_threeimg_postion{
+        position:absolute;
+        top:-147px;
+        left:63px;
+        width:1.7rem;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+    .my_threefont_postion{
+        position:absolute;
+        top:-235px;
+        right:76px;
+    }
+    .my_threefont_size{
+        font-size: 1.9rem;
+    }
+    .my_threeimg_postion{
+        position:absolute;
+        top:-219px;
+        left:75px;
+        width:2.8rem;
+    }
+}
+/*第三块内容右侧*/
+@media screen and (min-width: 1200px) {
+    .my_fourfont_postion{
+    position: absolute;
+        top:182px;
+        right:133px;
+    }
+    .my_fourfont_ya{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .my_fourfont_postion{
+        position: absolute;
+        top:136px;
+        right:124px;
+    }
+    .my_fourfont_ya{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_fourfont_postion{
+        position:absolute;
+        top:111px;
+        right:97px;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+    .my_fourfont_postion{
+        position:absolute;
+        top:165px;
+        right:180px;
+    }
+}
+/*第五内容hover*/
+.my_bg_location{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color:#002744;
+    opacity: 0.6;
+
+}
+.my_bg_location:hover{
+   opacity: 0;
+    transition-property:visibility ;
+    transition-duration: 0.1s;
+
+}
+/*小屏纵向显示*/
+@media screen  and (max-width: 767px) {
+    .my_dis{
+        display: none;
+    }
+    .my_dis1{
+        display: block !important;
+        margin-bottom: 3rem;
+    }
+}
+/*zhaoliying轮播效果媒体查询*/
+@media  screen and (min-width: 1200px){
+    .my_fivel_position{
+        position: absolute;
+        bottom:88px;
+        left:30px;
+        font-size: 4rem;
+    }
+    .my_fivelt_position{
+        position: absolute;
+        bottom:33px;
+        left:30px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width:992px) {
+    .my_fivel_position{
+        position: absolute;
+        bottom:70px;
+        left:30px;
+        font-size: 3.5rem;
+    }
+    .my_fivelt_position{
+        position: absolute;
+        bottom:20px;
+        left:30px;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_fivel_position{
+        position:absolute;
+        bottom:62px;
+        left:30px;
+        font-size: 2.5rem;
+    }
+    .my_fivelt_position{
+        position: absolute;
+        bottom:16px;
+        left:30px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+    .my_fivel_position{
+        position:absolute;
+        bottom:69px;
+        left:30px;
+        font-size: 3rem;
+    }
+    .my_fivelt_position{
+        position: absolute;
+        bottom:14px;
+        left:30px;
+        font-size: 1rem;
+    }
+    .my_mb{
+        margin-bottom: 0px !important;
+    }
+
+}
+/*zhaoliying right*/
+@media  screen and (min-width: 1200px){
+    .my_fiver_position{
+        position:absolute;
+        bottom: 10px;
+        right: 40%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width:992px) {
+    .my_fiver_position{
+        position:absolute;
+        bottom: 2px;
+        right: 38%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_fiver_position{
+        position:absolute;
+        bottom:7px;
+        right: 32%;
+        text-align: center;
+    }
+    div>p{margin-bottom: 0px;}
+}
+
+@media screen  and (max-width: 767px) {
+    .my_fiver_position{
+        position:absolute;
+        bottom: 0px;
+        right: 42%;
+        text-align: center;
+    }
+    .my_pt{padding-top: 0px !important;
+        margin-top: 0px !important;}
+}
+/*探索字体位置*/
+/*.my_fontstyle1{
+    font:2rem 'Lucida Calligraphy';
+}*/
+@media  screen and (min-width: 1200px){
+  .my_sixfont_position{
+      position: absolute;
+      top:57px;
+      left:67px;
+  }
+    .my_sixfont1_position{
+        position: absolute;
+        top:282px;
+        left:67px;
+    }
+    .my_sixa_position{
+        width: 15% !important;
+        position: absolute;
+        bottom: 77px;
+        left:67px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width:992px) {
+    .my_sixfont_position{
+        position: absolute;
+        top:37px;
+        left:50px;
+    }
+    .my_sixfont1_position{
+        position: absolute;
+        top:249px;
+        left:50px;
+    }
+    .my_sixa_position{
+        width: 15% !important;
+        position: absolute;
+        bottom: 58px;
+        left:50px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_sixfont_position{
+        position: absolute;
+        top:13px;
+        left:28px;
+
+    }
+    .my_sixfont1_position{
+        position: absolute;
+        top:181px;
+        left:28px;
+    }
+    .my_sixa_position{
+        width: 15% !important;
+        position: absolute;
+        bottom: 29px;
+        left:28px;
+    }
+}
+
+@media screen  and (max-width: 767px) {
+    .my_sixfont_position{
+        position: absolute;
+        top:57px;
+        left:67px;
+    }
+    .my_sixfont1_position{
+        position: absolute;
+        top:281px;
+        left:67px;
+    }
+    .my_sixa_position{
+        width: 15% !important;
+        position: absolute;
+        bottom: 68px;
+        left:67px;
+    }
+    /*探索导航的小屏隐藏*/
+    .my_seven_t{
+        display:none;
+    }
+}
+/*探索导航*/
+.arrow_2{
+    width:35px;height:2px;
+    border:1px solid #ccc;
+    background-color:#fff;
+    position:relative;
+    top:-12px;
+    right:-326px;
+}
+.arrow_3{
+    width:15px;height:15px;
+    border:2px solid #ccc;
+    border-left:none;
+    border-bottom:none;
+    transform:rotate(45deg);
+    position:absolute;
+    top:-8px;
+    right:0px;
+}
+.my_color{
+    background-color: #426680;
+}
+.my_cur{
+    cursor:pointer;
+}

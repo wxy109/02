@@ -1,0 +1,35 @@
+.row{
+    height:64px;
+    background-color: #fff;
+}
+a{text-decoration: none !important;}
+.row{width:100%;min-width: 500px; }
+@media screen and (min-width: 992px) {
+    .my-img{  width: 60% !important;
+
+    }
+    .my-font{  font-size: 1.02rem !important;  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my-img{  width: 88% !important;
+        display: flex;
+        position:relative;
+        top:0px;
+    }
+    .my-font{  font-size: 0.8rem;  }
+}
+
+@media screen and (max-width: 767px) {
+    .my-img{  width: 95% !important;  }
+    .my-font{  font-size: 0.5rem;  }
+    .my_play{
+        display:none;
+    }
+}
+
+.my_place{
+    top:2px;
+    position: fixed !important;
+    z-index: 100;
+}

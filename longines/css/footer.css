@@ -1,0 +1,67 @@
+.my_bgcolor{
+    background-color: #002744;
+}
+.my_navtext{
+    font-size: 0.5rem;
+    color: #c8cbcf !important;
+
+}
+.my_twoc{
+    background-color: #b8b8b8;
+}
+.my_w{
+    width:14%;
+}
+/*最后布局*/
+.my_padding{
+    padding-top:5rem;
+}
+.my_h4{
+    color:#002744 !important;
+    font:30px bold ;
+}
+.my_atext{
+    font-size: 0.8rem;
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+.my_r{
+    padding-right: 8rem;
+}
+.my_sp{
+    margin: 0 auto;
+}
+.my_height{
+    height:267px;
+}
+.my_heightend{
+    height:384px;
+}
+.my_bg{
+    background-color: #f4f3f3;
+}
+/*重写最后轮播指示符*/
+.carousel-indicators li{
+
+    background-color:#aaa;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.carousel-indicators .active{
+    background-color: #696969!important;
+}
+.my_l{
+    padding-left: 5rem;
+}
+.my_display{
+    display:none;
+}
+@media screen and (max-width:1042px) {
+ .my_display1{
+     display:none;
+ }
+    .my_display2{
+        display:block;
+    }
+
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/l_2.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row my_div">
+        <div class="col-sm-12 py-3">
+            <img class="d-block my_m_center " src="img1/logo1.png" alt=""/>
+        </div>
+        <div class="col-sm-12 my_n_bg ">
+            <ul class="breadcrumb m-0">
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;" >浪琴主页</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">浪琴世界</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">大使</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="javascript:;">林志玲</a>
+                </li>
+            </ul>
+            <hr class="my_h"/>
+        </div>
+        <div class="col-sm-12 my_n_bg p-4 ">
+            <h1 class="text-center text-white font-weight-light">林志玲</h1>
+        </div>
+        <div id="break" class="col-sm-12 my_n_bg pr-0">
+            <div class=" float-left p-2 pr-0 pb-3">
+                <img class="d-inline-block pb-1 my_cur" src="img1/l_箭头.png" alt=""/>
+                <span class="my_f_c my_cur ">彭于晏</span>
+            </div>
+            <div class="float-right p-2 pl-0 pb-3">
+                <span class="my_f_c my_cur">Zhao Liying</span>
+                <img class="d-inline-block pb-1 my_cur" src="img1/r_箭头.png" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- 内容-->
+        <div class="col-sm-12 col-md-6 p-0 pt-2">
+            <img class="w-100" src="img1/zhiling.jpg" alt=""/>
+        </div>
+        <div class="col-sm-12 col-md-6 p-0 pt-2 my_div_p">
+            <div class="pt-5 px-5 my_m_p">
+                <p class="my_title_f">集专业模特与著名演员于一身的美女林志玲，自 2005 起就以其迷人的魅力与清新的风格担当着浪琴表优雅形象的大使。
+                </p>
+                <p class="my_s_f m-0">在过去几年间，台湾明星林志玲精致姣好的面孔在亚洲地区可谓家喻户晓。作为一名成功的模特，她曾多次代言国际品牌并荣登著名时尚杂志的封面。但是，对于志玲来说，内在美和外在美同样重要，她总是通过不断学习来提高自己。这位来自宝岛台湾，持有多伦多大学学位的年轻维纳斯热爱艺术，尤其钟情于雕塑。她还热心于公益慈善事业，参与包括世界宣明会的艾滋病孤儿资助项目在内的多个项目。浪琴表也折服于她的不凡魅力，于2005年邀请她成为品牌形象大使。
+                </p>
+            </div>
+        </div>
+        <!-- 大图片-->
+        <div class="col-sm-12 p-0 pt-2">
+            <img class="w-100" src="img1/zhiling2.jpg" alt=""/>
+        </div>
+        <div class="col-sm-12 col-md-6 my_th_bg mt-2">
+            <div class="row">
+                <div class="col-sm-12 mt-2">
+                    <img class="w-75 d-block my_m_center" src="img1/zhilingbiao.jpg" alt=""/>
+                </div>
+                <div class="col-sm-12 ">
+                    <div class=" bg-white w-75 my_m_center">
+                        <h2 class="text-center py-5">浪琴表博雅系列</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mt-2">
+            <div class="pt-5 px-5 my_m_p">
+                <p class="my_s_f my_m_padding">除了T台走秀，林志玲也积极发展演艺事业。如今的她不仅是成功的电视节目主持人，更是金马奖、金曲奖等大型颁奖晚会的明星主持。她的出现总是引来观众的尖叫和收视率的飙升。 同时，林志玲更将演艺事业拓展到世界影坛，开启了演艺事业的新篇章。她受邀参与著名导演吴宇森新片《赤壁》的演出，在剧中与梁朝伟演对手戏。毫无疑问，林志玲是位优秀而成功的艺人！祝福志玲！</p>
+            </div>
+        </div>
+        <!-- -->
+    </div>
+</div>
+<footer >
+    <iframe src="footer.html"scrolling="no"class="my_row1" frameborder="0"></iframe>
+</footer>
+<script>
+    (function(){
+        var homepage=document.getElementsByClassName("breadcrumb")[0];
+        // console.log(homepage);
+        var li=homepage.firstElementChild.firstElementChild;
+        //console.log(li);//浪琴主页绑定事件
+        li.onclick=function(){
+            open("longine.html","_blank");
+        }
+        var p_a=document.getElementById("break");
+        //console.log(p_a);
+        var p_a1=p_a.firstElementChild;
+        var p_a2=p_a.lastElementChild;
+        p_a1.onclick=function(){
+            open("l_2_1.html","_self");
+        }
+        p_a2.onclick=function(){
+            open("l_2.html","_self");
+        }
+    })()
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.my_n_bg{
+    background-color: #002744;
+}
+/*重写面包屑背景*/
+.breadcrumb{
+    background-color: #002744;
+}
+.my_div{min-width:384px; }
+a{color:#a0a4aa;}
+a:hover{text-decoration: none !important;
+    color:#a0a4aa;}
+.my_h{
+    border:0.5px solid #a0a4aa;
+    background-color: #a0a4aa;
+    margin:0;
+}
+.my_f_c{  color:#a0a4aa; font-size: 1.2rem; }
+.my_cur{  cursor:pointer; /*小手*/  }
+
+/*媒体查询改变字体大小 diyikuai*/
+@media screen and (min-width: 1200px) {
+    .my_title_f{  font-size: 1.8rem; color:#646970; }
+    .my_s_f{  font-size: 1.2rem; color:#646970; }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .my_m_p{
+        padding-top:2.3rem!important;
+    }
+    .my_title_f{  font-size: 1.5rem; color:#646970; }
+    .my_s_f{  font-size: 1rem; color:#646970; }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .my_m_p{
+        padding-top: 0.2rem!important;
+        padding-left: 1.3rem!important;
+        padding-right: 1rem!important;
+    }
+    .my_m_padding{
+        padding-top: 2rem!important;
+        padding-right: 1.5rem!important;
+    }
+    .my_title_f{  font-size: 1.3rem; color:#646970; }
+    .my_s_f{  font-size: 0.8rem; color:#646970; }
+}
+@media screen  and (max-width: 767px) {
+    .my_title_f{  font-size: 1.8rem; color:#646970; }
+    .my_s_f{  font-size: 1.2rem; color:#646970; }
+    .my_div_p{padding-top:0px!important;}
+}
+/*over*/
+/*居中*/
+.my_m_center{margin:0 auto !important;}
+.my_th_bg{ background-color: #e5e6e6; }
+/*头文件尾文件*/
+.my_row1{width:100%;height:58rem;}
